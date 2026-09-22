@@ -1,0 +1,47 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Logs
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment secrets
+.env
+.env.*
+
+# Cryptographic keys (nunca subir claves privadas)
+*.pem
+*.key
+*.p12
+*.pfx
+keys/*.pem
+keys/*.key
+
+# Generated app artifacts
+uploads/*
+signatures/*
+metadata/*
+!uploads/.gitkeep
+!signatures/.gitkeep
+!metadata/.gitkeep
+
+# Optional: if you later want to keep a sample public key or example file, unignore it manually
+# !keys/public_key.pem
+# !metadata/ejemplo.json
+# !signatures/ejemplo.sig
